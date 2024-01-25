@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/pp', (req, res) => {
-  res.send('Hello World! 2');
+  res.redirect('/');
 });
 
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
