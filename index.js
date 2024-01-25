@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/pp', (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
   res.send('Hello World!!');
 });
 
