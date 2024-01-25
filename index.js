@@ -4,7 +4,7 @@ const PORT = 3000;
 
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
+app.get('/matt', (req, res) => {
     res.send('Hello World!');
 });
 
